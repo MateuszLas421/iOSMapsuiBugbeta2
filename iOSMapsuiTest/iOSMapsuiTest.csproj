@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <SupportedOSPlatformVersion>14.0</SupportedOSPlatformVersion>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Mapsui" Version="5.0.0-beta.2" />
+      <PackageReference Include="Mapsui.iOS" Version="5.0.0-beta.2" />
+    </ItemGroup>
+</Project>
